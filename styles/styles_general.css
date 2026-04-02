@@ -1,1 +1,106 @@
 @charset "UTF-8";
+
+:root {
+    --palette-primary:    hsl(258, 51%, 65%);
+    --palette-secondary:  hsl(258, 51%, 32%);
+    --palette-accent-a:   hsl(133, 70%, 45%);
+    --palette-accent-b:   hsl(134, 40%, 15%);
+    --palette-background: hsl(210, 8%, 95%);
+    --palette-outlines:   hsl(0, 1%, 85%);
+    --palette-headers:    hsl(0, 0%, 15%);
+    --palette-text:       hsl(210, 8%, 5%);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --palette-primary:    hsl(258, 51%, 32%);
+        --palette-secondary:  hsl(258, 51%, 65%);
+        --palette-accent-a:   hsl(134, 40%, 15%);
+        --palette-accent-b:   hsl(133, 70%, 45%);
+        --palette-background: hsl(210, 8%, 5%);
+        --palette-outlines:   hsl(0, 0%, 15%);
+        --palette-headers:    hsl(0, 1%, 85%);
+        --palette-text:       hsl(210, 8%, 95%);
+}
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    & * {
+        margin: 5px;
+        padding: 5px;
+    }
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--palette-background);
+    color: var(--palette-text);
+
+    & h1,
+    & h2,
+    & h3 {
+        color: var(--palette-headers);
+    }
+
+    & button.action_primary {
+        background-color: var(--palette-primary);
+        border: 2px solid var(--palette-secondary);
+        color: var(--palette-secondary);
+    }
+
+    & button.action_secondary {
+        background-color: var(--palette-accent-a);
+        border: 2px solid var(--palette-accent-b);
+        color: var(--palette-accent-b);
+    }
+
+    & a {
+        color: var(--palette-secondary);
+        &:hover {
+            color: var(--palette-accent-a);
+        }
+    }
+}
+
+footer {
+    background-color: var(--palette-outlines);
+}
+
+
+
+
+/*body nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8vh;
+    background-color: seagreen;
+
+    & > a {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100%;
+        width: 30%;
+        background-color: darkgreen;
+        font-size: 2vh;
+        &:hover {
+            background-color: green;
+        }
+    }
+}*/

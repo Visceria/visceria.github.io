@@ -16,3 +16,8 @@
 - Created script.js
 - Basic format of README.md
 - Foundational HTML
+### 0.0.3 | Colour palette
+- Published: *Apr. 02, '26*
+- Added .gitignore
+- Made light-mode and dark-mode colour palettes
+- Allowed basic prefers-color-scheme support
