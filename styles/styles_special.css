@@ -1,1 +1,43 @@
 @charset "UTF-8";
+
+/*Special styles for the main section*/
+main div#banner_major {
+    /*Size and Technical*/
+    position: relative; /*Setting this element to relative pos makes sure the daughter ::before dosent escape into the whole page.*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1vh 1vw;
+
+    /*Placing daughters above the background,
+      Not in &>div bc I might add other daughters*/
+    & > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    /*The background image, a whole lot of technical stuff*/
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: url("../images/visceria_card.webp");
+        background-position: top 25% center; /*The 25% is a bit of a magic-num :(*/
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+    }
+
+    /*The main page title*/
+    & > div {
+        width: fit-content;
+        background-color: var(--palette-background-transparent);
+        border: 1px solid var(--palette-outlines);
+        border-radius: 5px;
+        padding: 1vh 1vw;
+        font-size: 3vh;
+    }
+}

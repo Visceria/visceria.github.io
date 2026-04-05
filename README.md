@@ -7,6 +7,8 @@
 1. **<u>Change Log</u>**
 
 ## Change Log
+
+> 0.0.X range indicates litteral beginings, basic design, and file creation & organising.
 ### 0.0.1 | init
 - Published: *Mar. 31, '26*
 - Created index.html
@@ -21,3 +23,10 @@
 - Added .gitignore
 - Made light-mode and dark-mode colour palettes
 - Allowed basic prefers-color-scheme support
+
+> 0.1.X range indicates design basics and early files.
+### 0.1.0 | Design I
+- Published: *Apr. 02, '26*
+- Basic design and plan for layout.
+- Small colour palette changes.
+- Added some material images.

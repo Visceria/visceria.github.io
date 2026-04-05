@@ -8,6 +8,6 @@
         'wght' 700,
         'GRAD' -25,
         'opsz' 24;
-    margin: unset;
+    margin: 0;
     font-size: inherit;
 }
