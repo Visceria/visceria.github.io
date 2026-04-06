@@ -36,6 +36,15 @@
 - Added design for the nar-bar
 - Added design for basic Home section
 - Added some images for developer cards, in preparation
+### 0.1.2 | Design III
+- Published: *Apr. 06, '26*
+- Planned layout for "Get the Game!", "Story", "About Us", and "Contact" sections
+- Added some of the cards for "About Us" section
+- Added some images of icon marks
+- Added Visceria build, in preparation
+- !!! Some poor HTML/CSS in wait for content — will end up being removed after
+
+> 0.2.X range indicates general content adding.
 <div style="color: gray;">
-<h3> (Planned) 0.1.2 | Design III </h3>
+<h3> (Planned) 0.2.0 | Content I </h3>
 </div>

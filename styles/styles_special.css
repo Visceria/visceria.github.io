@@ -51,3 +51,56 @@ main div#banner_major {
 body nav a {
     justify-content: center !important;
 }
+
+
+body section#about div.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    & > fieldset {
+        position: relative;
+        min-width: 400px;
+        max-width: 50%;
+        aspect-ratio: 1/1.1;
+        overflow: hidden;
+        margin: 1vh 0;
+        border-radius: 5px;
+        border: 2px solid var(--palette-primary);
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: block;
+            background-image: url(../images/error.webp);
+            background-size: cover;
+            background-position: center;
+            transition: all 1s ease-in-out;
+            z-index: 1;
+        }
+        &:hover::before {
+            transform: scale(1.7);
+        }
+        &:hover {
+            border: 2px solid var(--palette-accent);
+        }
+        & > div {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            background-color: var(--palette-background-transparent);
+            padding: 5px;
+            width: 100%;
+        }
+        /*Changing specific cards to their respective images*/
+        &#about_ace::before     {background-image: url(../images/cards/ace.webp);}
+        &#about_mikey::before   {background-image: url(../images/cards/mikey.webp);}
+        &#about_drklein::before {background-image: url(../images/cards/dr_klein.webp);}
+        &#about_parit::before   {background-image: url(../images/cards/pari_t.webp);}
+    }
+}

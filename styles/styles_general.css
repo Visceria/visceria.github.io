@@ -122,6 +122,12 @@ body main {
     height: fit-content;
 }
 
+body main,
+body section,
+body footer {
+    scroll-margin-top: 9vh;
+}
+
 body main > *,
 body section > *,
 body footer > * {
@@ -148,7 +154,7 @@ body footer > * {
     }
 }
 
-*:has(> span.material-symbols-rounded) {
+*:not(section#contact *):has(> span.material-symbols-rounded) {
     display: flex;
     justify-content: left;
     align-items: center;
@@ -156,5 +162,30 @@ body footer > * {
     & > span.material-symbols-rounded {
         font-size: 1.25em;
         margin: 3px;
+    }
+}
+
+hr.hr_stylised {
+    width: 90%;
+    height: 1vh;
+    justify-self: center;
+    background-color: var(--palette-secondary);
+    border: none;
+    border-radius: 15px;
+    padding: 0;
+}
+
+a:has( > picture.inline_image) {
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+
+    & picture.inline_image
+    {
+        margin-right: 5px;
+        & > * {
+            height: 1em;
+            width: auto;
+        }
     }
 }
