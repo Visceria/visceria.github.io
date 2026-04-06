@@ -26,7 +26,16 @@
 
 > 0.1.X range indicates design basics and early files.
 ### 0.1.0 | Design I
-- Published: *Apr. 02, '26*
-- Basic design and plan for layout.
-- Small colour palette changes.
-- Added some material images.
+- Published: *Apr. 05, '26*
+- Basic design and plan for layout
+- Small colour palette changes
+### 0.1.1 | Design II
+- Published: *Apr. 05, '26*
+- More support for light-mode/dark-mode
+- More responsive design and layout
+- Added design for the nar-bar
+- Added design for basic Home section
+- Added some images for developer cards, in preparation
+<div style="color: gray;">
+<h3> (Planned) 0.1.2 | Design III </h3>
+</div>

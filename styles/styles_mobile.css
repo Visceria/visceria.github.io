@@ -1,1 +1,7 @@
 @charset "UTF-8";
+
+@media (max-width: 1000px) {
+    html body nav p {
+        display: none;
+    }
+}
