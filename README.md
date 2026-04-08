@@ -43,8 +43,23 @@
 - Added some images of icon marks
 - Added Visceria build, in preparation
 - !!! Some poor HTML/CSS in wait for content — will end up being removed after
+### 0.1.3 | Design IV, Finale
+- Published: *Apr. 08, '26*
+- Removed seperations of "About Us" cards
+- Indicated controls for Visceria
+- Added link to the Itch.io page for the game
+- Integrated the WebGL build of Visceria to the website natively
+- Added mobile-only "Visceria is unavailable" notice
+- Added some new hyperlinks to "Contact" section
+- New colour for "Contact" section
+- New fonts (Jesery 20: Big, & Nunito: Reg)
 
-> 0.2.X range indicates general content adding.
 <div style="color: gray;">
-<h3> (Planned) 0.2.0 | Content I </h3>
+<code>0.2.X range indicates general content adding.</code>
+<h3> (Planned) 0.2.0 | Content I</h3>
+<h3> (Planned) 0.2.1 | Content II, Finale</h3>
+<code>0.3.X range indicates fact-checking and review.</code>
+<h3> (Planned) 0.3.0 | Review I</h3>
+<code>1.0 &mdash; PUBLISH!</code>
+<h3> (Planned) 1.0 | Release the Hounds!</h3>
 </div>

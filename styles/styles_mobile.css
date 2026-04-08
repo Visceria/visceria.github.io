@@ -4,4 +4,17 @@
     html body nav p {
         display: none;
     }
+    html body iframe {
+        display: none;
+    }
+    html body div#game_container {
+        width: 100%;
+        height: max-content;
+    }
+    html body div.mobile_iframe {
+        display: block;
+    }
+    html body *#itchio_controls {display: none;}
 }
+
+body div.mobile_iframe {display: none;}

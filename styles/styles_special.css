@@ -76,7 +76,7 @@ body section#about div.cards {
             height: 100%;
             width: 100%;
             display: block;
-            background-image: url(../images/error.webp);
+            background-color: var(--palette-primary);
             background-size: cover;
             background-position: center;
             transition: all 1s ease-in-out;
@@ -84,6 +84,7 @@ body section#about div.cards {
         }
         &:hover::before {
             transform: scale(1.7);
+            background-color: var(--palette-accent);
         }
         &:hover {
             border: 2px solid var(--palette-accent);
@@ -98,9 +99,37 @@ body section#about div.cards {
             width: 100%;
         }
         /*Changing specific cards to their respective images*/
+        &#about_pixleb8::before {background-image: url(../images/cards/pixleb8.webp);}
         &#about_ace::before     {background-image: url(../images/cards/ace.webp);}
-        &#about_mikey::before   {background-image: url(../images/cards/mikey.webp);}
         &#about_drklein::before {background-image: url(../images/cards/dr_klein.webp);}
+        &#about_jabir::before   {background-image: url(../images/cards/jabir.webp);}
+        &#about_mikey::before   {background-image: url(../images/cards/mikey.webp);}
         &#about_parit::before   {background-image: url(../images/cards/pari_t.webp);}
+        &#about_yanter::before  {background-image: url(../images/cards/yanter.webp);}
     }
 }
+
+
+div#game_container {
+    width: 1000px;
+    height: 600px;
+    justify-self: center;
+    text-align: center;
+    & > div.mobile_iframe,
+    & > iframe#game_drop {
+        width: 100%;
+        height: 100%;
+    }
+    & > div.mobile_iframe {
+        background-color: var(--palette-outlines);
+        width: 70%;
+        height: max-content;
+        justify-self: center;
+        padding: 1vw 1vh;
+        border: 3px dashed var(--palette-accent);
+    }
+
+}
+
+*#itchio_controls,
+*#itchio_link {justify-self: center;}
