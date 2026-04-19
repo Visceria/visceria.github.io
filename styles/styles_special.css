@@ -7,7 +7,7 @@ main div#banner_major {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 25vh;
     padding: 1vh 1vw;
     color: var(--palette-headers);
 
@@ -24,7 +24,7 @@ main div#banner_major {
         position: absolute;
         top: 0;
         left: 0;
-        background-image: url("../images/visceria_card.webp");
+        background-image: url("../images/visceria_banner.webp");
         background-position: top 25% center; /*The 25% is a bit of a magic-num :(*/
         background-size: cover;
         height: 100%;
@@ -99,13 +99,15 @@ body section#about div.cards {
             width: 100%;
         }
         /*Changing specific cards to their respective images*/
-        &#about_pixleb8::before {background-image: url(../images/cards/pixleb8.webp);}
-        &#about_ace::before     {background-image: url(../images/cards/ace.webp);}
-        &#about_drklein::before {background-image: url(../images/cards/dr_klein.webp);}
-        &#about_jabir::before   {background-image: url(../images/cards/jabir.webp);}
-        &#about_mikey::before   {background-image: url(../images/cards/mikey.webp);}
-        &#about_parit::before   {background-image: url(../images/cards/pari_t.webp);}
-        &#about_yanter::before  {background-image: url(../images/cards/yanter.webp);}
+        &#about_pixleb8::before   {background-image: url(../images/cards/pixleb8.webp);}
+        &#about_ace::before       {background-image: url(../images/cards/ace.webp);}
+        &#about_drklein::before   {background-image: url(../images/cards/dr_klein.webp);}
+        &#about_fox::before       {background-image: url(../images/cards/fox.webp);}
+        &#about_jabir::before     {background-image: url(../images/cards/jabir.webp);}
+        &#about_mikey::before     {background-image: url(../images/cards/mikey.webp);}
+        &#about_parit::before     {background-image: url(../images/cards/pari_t.webp);}
+        &#about_yanter::before    {background-image: url(../images/cards/yanter.webp);}
+        &#about_deleduck::before  {background-image: url(../images/cards/deleduck.webp);}
     }
 }
 
@@ -133,3 +135,40 @@ div#game_container {
 
 *#itchio_controls,
 *#itchio_link {justify-self: center;}
+
+
+fieldset.images {
+    justify-self: center; 
+    border: 2px solid var(--palette-primary); 
+    background-size: cover;
+    background-position: center;
+}
+fieldset#story_melody_a {
+    width: 40%; 
+    height: auto; 
+    background-image: url('../images/melody_a.webp'); 
+    text-align: right;
+}
+fieldset#story_melody_b {
+    width: 40%; 
+    height: auto; 
+    background-image: url('../images/visceria_card.webp'); 
+}
+fieldset#story_melody_c {
+    width: 40%; 
+    height: auto; 
+    background-image: url('../images/melody_a.webp'); 
+    text-align: right;
+}
+
+div:has(fieldset#story_melody_a),
+div:has(fieldset#story_melody_c) {
+    text-align: right;
+}
+
+p.entry_message {
+    color: var(--palette-outlines);
+    &:hover {
+        color: var(--palette-headers);
+    }
+}

@@ -14,7 +14,27 @@
     html body div.mobile_iframe {
         display: block;
     }
-    html body *#itchio_controls {display: none;}
+    html body *#itchio_controls {
+        display: none;
+    }
+    html body section#story div.splitport_even {
+        flex-direction: column;
+        width: 100%;
+        & > fieldset {
+            min-width: 100%;
+            height: 45vh;
+        }
+        & > div {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    html body section#about div.cards > fieldset {
+        min-width: 90%;
+    }
 }
 
 body div.mobile_iframe {display: none;}

@@ -4,7 +4,16 @@
 <br/><br/><br/>
 
 ## Table of Contents
-1. **<u>Change Log</u>**
+1. **<u>To Do List</u>**
+2. **<u>Change Log</u>**
+
+## To Do List
+1. Add content to sections:
+  <br/>a. Home;
+  <br/>b. Game;
+  <br/>c. Story; &
+  <br/>d. About Us.
+2. Review for final publish.
 
 ## Change Log
 
@@ -42,7 +51,7 @@
 - Added some of the cards for "About Us" section
 - Added some images of icon marks
 - Added Visceria build, in preparation
-- !!! Some poor HTML/CSS in wait for content — will end up being removed after
+- Some poor HTML/CSS in wait for content — will end up being removed after
 ### 0.1.3 | Design IV, Finale
 - Published: *Apr. 08, '26*
 - Removed seperations of "About Us" cards
@@ -54,10 +63,15 @@
 - New colour for "Contact" section
 - New fonts (Jesery 20: Big, & Nunito: Reg)
 
+> 0.2.X range indicates general content adding.
+### (Current) 0.2.0 | Content I
+- Published: *Apr. 09, '26*
+- Removed (now redundant) Visceria WebBuild and 04b03 Font
+- Removed JS script
+- Reformatted Story section to include the official entries
+- Added text content for Home and Story sections
+- Added mobile layout changes for Story section
 <div style="color: gray;">
-<code>0.2.X range indicates general content adding.</code>
-<h3> (Planned) 0.2.0 | Content I</h3>
-<h3> (Planned) 0.2.1 | Content II, Finale</h3>
 <code>0.3.X range indicates fact-checking and review.</code>
 <h3> (Planned) 0.3.0 | Review I</h3>
 <code>1.0 &mdash; PUBLISH!</code>
