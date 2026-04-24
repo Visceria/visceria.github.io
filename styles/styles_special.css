@@ -7,7 +7,7 @@ main div#banner_major {
     top: 0;
     left: 0;
     width: 100%;
-    height: 25vh;
+    height: 40vh;
     padding: 1vh 1vw;
     color: var(--palette-headers);
 
@@ -101,7 +101,7 @@ body section#about div.cards {
         /*Changing specific cards to their respective images*/
         &#about_pixleb8::before   {background-image: url(../images/cards/pixleb8.webp);}
         &#about_ace::before       {background-image: url(../images/cards/ace.webp);}
-        &#about_drklein::before   {background-image: url(../images/cards/dr_klein.webp);}
+        &#about_mrhouse::before   {background-image: url(../images/cards/mr_house.webp);}
         &#about_fox::before       {background-image: url(../images/cards/fox.webp);}
         &#about_jabir::before     {background-image: url(../images/cards/jabir.webp);}
         &#about_mikey::before     {background-image: url(../images/cards/mikey.webp);}
@@ -157,7 +157,7 @@ fieldset#story_melody_b {
 fieldset#story_melody_c {
     width: 40%; 
     height: auto; 
-    background-image: url('../images/melody_a.webp'); 
+    background-image: url('../images/melody_music.webp'); 
     text-align: right;
 }
 

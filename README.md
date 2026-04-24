@@ -64,16 +64,23 @@
 - New fonts (Jesery 20: Big, & Nunito: Reg)
 
 > 0.2.X range indicates general content adding.
-### (Current) 0.2.0 | Content I
-- Published: *Apr. 09, '26*
+### 0.2.0 | Content I
+- Published: *Apr. 19, '26*
 - Removed (now redundant) Visceria WebBuild and 04b03 Font
 - Removed JS script
 - Reformatted Story section to include the official entries
 - Added text content for Home and Story sections
 - Added mobile layout changes for Story section
-<div style="color: gray;">
-<code>0.3.X range indicates fact-checking and review.</code>
-<h3> (Planned) 0.3.0 | Review I</h3>
-<code>1.0 &mdash; PUBLISH!</code>
-<h3> (Planned) 1.0 | Release the Hounds!</h3>
-</div>
+- Added pronouns to About Us cards
+
+> 1.0 — PUBLISH!
+### (Current) 1.0 | Release the Hounds!
+##### After an unpublished period of review, the site is published.
+- Published: *Apr. 23, '26*,
+- A site logo was created
+- Changed third story image
+- Removed Ace's pronouns from bio
+- Mr. House's name and image were updated to match current
+- Jabir's image was updated
+- Added missing third entry heading
+- Completed metadata
